@@ -7,15 +7,15 @@ window.onload = function(){
     perfis.push({nome: 'Samuel', icon:'5',})
     perfis.push({nome: 'Yasmim', icon:'6',})
     var perfilsecao = document.getElementById('perfis');
-    // array.length
-    for (var index = 0; index < 7; index++) {
-        perfilsecao.innerHTML+=
-        `<a href="home.html">
-            <div class='perfil'>
-                <div style='background-image: url(../imgs/icons/${perfis[index].icon}.png);'>
-                </div>
-                <h2>${perfis[index].nome}</h2>
-            </div>
-        </a>`;
-    }
+
+    var conteudo = document.getElementsByClassName('areas')[1];
+    // for (var index = 0; index < 7; index++) {
+    //     conteudo.innerHTML+=`
+    //     <a href="home.html">
+    //         <div class="area">
+    //             <div class="video">
+    //             </div>
+    //         </div>
+    //     </a>`;
+    // }
 }
